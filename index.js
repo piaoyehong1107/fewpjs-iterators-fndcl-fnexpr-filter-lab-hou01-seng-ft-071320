@@ -10,3 +10,10 @@ function fuzzyMatch(arr,str){
   })
   return newarr
 }
+
+function fuzzyMatch(arr,str){
+  let newarr=arr.filter(dri=>{
+   return dri.startsWith(str)
+  })
+  return newarr
+}
