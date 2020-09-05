@@ -4,6 +4,9 @@ function findMatching(arr,str){
   })
   return newarr
 }
-function fuzzyMatch(){
-  
+function fuzzyMatch(arr,str){
+  let newarr=arr.filter(dri=>{
+   return dri[0]===str
+  })
+  return newarr
 }
