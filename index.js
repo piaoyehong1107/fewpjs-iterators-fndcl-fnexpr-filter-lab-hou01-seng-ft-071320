@@ -1,6 +1,6 @@
 function findMatching(arr,str){
-  arr.filter(dri=>{
-   let newarr=dri.toLowerCase===str.toLowerCase
+  let newarrarr.filter(dri=>{
+   =dri.toLowerCase===str.toLowerCase
   })
   return newarr
 }
