@@ -13,7 +13,7 @@ function fuzzyMatch(arr,str){
 
 function matchName(arr,str){
   let newarr=arr.filter(dri=>{
-   return dri.startsWith(str)
+   return dri.name===str
   })
   return newarr
 }
