@@ -6,7 +6,7 @@ function findMatching(arr,str){
 }
 function fuzzyMatch(arr,str){
   let newarr=arr.filter(dri=>{
-   return dri[0]===str
+   return dri.startsWith(str)
   })
   return newarr
 }
